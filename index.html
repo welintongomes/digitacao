@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aléxia Digitação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <h3>Escolha Um Nível</h3>
+        <ul>
+            <li>
+                <a href="#" onclick="mudarNivel(1)">Nivel 1</a>
+            </li>
+            <li>
+                <a href="#" onclick="mudarNivel(2)">Nivel 2</a>
+            </li>
+            <li>
+                <a href="#" onclick="mudarNivel(3)">Nivel 3</a>
+            </li>
+            <li>
+                <a href="#" onclick="mudarNivel(4)">Nivel 4</a>
+            </li>
+            <li>
+                <a href="#" onclick="mudarNivel(5)">Nivel 5</a>
+            </li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <h1>Curso De Digitação Para A Aléxia</h1>
+
+        <div id="texto">Primeiro Escolha um nível ao lado.</div>
+
+        <input type="text" id="entrada" autofocus disabled>
+
+        <div id="estatisticas">Letras corretas: <span id="contadorCerto">0</span> | Letras erradas: <span
+                id="contadorErrado">0</span></div>
+
+        <div id="tempo">Tempo restante : <span id="contadorTempo">60</span>s</div>
+    </div>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>

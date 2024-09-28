@@ -1,0 +1,71 @@
+body, html{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+#menu{
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}#menu h3{
+    margin-top: 0;
+
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+#menu ul li a:hover{
+    background-color: #555;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 28px;
+}
+
+#conteudo{
+    flex-grow: 1;
+    padding: 20px;
+    overflow: auto;
+}
+
+#texto{
+    font-size: 24px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#entrada{
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #3907ed;
+
+}
+#estatisticas, #tempo{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.certo{
+    color: green;
+}
+.errado{
+    color: red;
+}
